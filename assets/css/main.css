@@ -1,1 +1,124 @@
 /* Agrega aquí tus estilos*/
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Dancing+Script|Great+Vibes|Italianno|Kaushan+Script|Lobster+Two|Montez|Parisienne|Poiret+One|Sacramento|Satisfy|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Fontdiner+Swanky|Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+#css-zen-garden {
+    top: 0px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+    margin-inline-end: 100%;
+    background-color: #e8ecf8;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+header {
+    margin: 0px;
+    background-image: url(../images/h1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Satisfy', cursive;
+    font-size: 800%;
+    color: #1b0d52;
+}
+
+h2 {
+    margin: 0px;
+    margin-right: 5%;
+    margin-top: -2%;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 350%;
+    text-align: right;
+    color: #0a263b;
+}
+
+p:first-child,
+.summary p:nth-child(2) {
+    margin: 0px;
+    margin-left: 50%;
+    font-size: 120%;
+    text-align: right;
+}
+
+p,
+li {
+    font-family: 'Poiret One', cursive;
+    font-size: 150%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h3 {
+    margin-top: 5%;
+    font-family: 'Sacramento', cursive;
+    font-size: 300%;
+    color: #e39942;
+}
+
+#zen-supporting div:not(.footer),
+.preamble {
+    background-image: url(../images/textura.jpg);
+}
+
+a {
+    color: #51627c;
+}
+
+a:visited {
+    color: #e1803c;
+}
+
+a:hover,
+a:focus {
+    color: #c9a35c;
+    text-decoration: underline;
+}
+
+footer a {
+    align-items: center;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 200%;
+    margin-left: 50%;
+}
+
+.wrapper {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 4%;
+    margin-inline-end: 100%;
+}
+
+.wrapper #design-selection,
+.wrapper #design-archives,
+.wrapper #zen-resources {
+    display: inline-block;
+    width: 33%;
+}
+
+.design-selection li {
+    color: gray;
+    margin-bottom: 0.28em;
+    text-align: center;
+    font-family: 'Montez', cursive;
+    font-size: 150%;
+}
+
+.design-archives li,
+.zen-resources li {
+    color: transparent;
+    margin-bottom: 0.30em;
+    text-align: center;
+    font-family: 'Montez', cursive;
+    font-size: 200%;
+}
